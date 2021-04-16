@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "41712711-0C84-4167-AECE-8BF634EF504F"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2CC99BAE-A64B-4584-8F58-4B1CF3DD2D11"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cafe-Manager/Views/signInViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "signInViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "2CC99BAE-A64B-4584-8F58-4B1CF3DD2D11 - 451d1289f1501922"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe_Manager.signInViewController.LoginButton.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Cafe-Manager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushani_chathumi/Desktop/NIBM-Manager/Cafe-Manager/Cafe-Manager/Views/signInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "104">
+               </Location>
+               <Location
+                  uuid = "2CC99BAE-A64B-4584-8F58-4B1CF3DD2D11 - 5a8068f1acabe93e"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe_Manager.signInViewController.LoginButton.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Cafe-Manager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushani_chathumi/Desktop/NIBM-Manager/Cafe-Manager/Cafe-Manager/Views/signInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "148">
+               </Location>
+               <Location
+                  uuid = "2CC99BAE-A64B-4584-8F58-4B1CF3DD2D11 - add3c6a50480f0f2"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe_Manager.signInViewController.LoginButton.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Cafe-Manager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushani_chathumi/Desktop/NIBM-Manager/Cafe-Manager/Cafe-Manager/Views/signInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "2CC99BAE-A64B-4584-8F58-4B1CF3DD2D11 - ea5d51a1d1be11cd"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe_Manager.signInViewController.LoginButton.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Cafe-Manager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushani_chathumi/Desktop/NIBM-Manager/Cafe-Manager/Cafe-Manager/Views/signInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  uuid = "2CC99BAE-A64B-4584-8F58-4B1CF3DD2D11 - 30b99c039cc35b9a"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe_Manager.signInViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Cafe_Manager.signInViewController"
+                  moduleName = "Cafe-Manager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushani_chathumi/Desktop/NIBM-Manager/Cafe-Manager/Cafe-Manager/Views/signInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "328">
+               </Location>
+               <Location
+                  uuid = "2CC99BAE-A64B-4584-8F58-4B1CF3DD2D11 - 645ee18bd4ee0bd0"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cafe_Manager.signInViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Cafe_Manager.signInViewController&gt;"
+                  moduleName = "Cafe-Manager"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/kushani_chathumi/Desktop/NIBM-Manager/Cafe-Manager/Cafe-Manager/Views/signInViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "304">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

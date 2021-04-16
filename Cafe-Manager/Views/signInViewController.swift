@@ -14,7 +14,7 @@ class signInViewController: UIViewController {
     @IBOutlet weak var EmailtextFiled: UITextField!
     
     @IBOutlet weak var PasswordTextField: UITextField!
-    @IBOutlet weak var LoginButton: UIButton!
+    //@IBOutlet weak var LoginButton: UIButton!
     
     @IBOutlet weak var ErrorLable: UILabel!
     

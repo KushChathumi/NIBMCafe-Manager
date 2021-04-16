@@ -12,7 +12,7 @@ class ForgetPWViewController: UIViewController {
 
     @IBOutlet weak var EmainTextFiled: UITextField!
     
-    @IBOutlet weak var SendButton: UIButton!
+   // @IBOutlet weak var SendButton: UIButton!
     
     @IBOutlet weak var ErrorLabel: UILabel!
     
@@ -43,4 +43,9 @@ class ForgetPWViewController: UIViewController {
             }
         }
     }
+    
+    @IBAction func BackButtonTapped(_ sender: Any) {
+        dismiss(animated: false, completion: nil)
+    }
+    
 }

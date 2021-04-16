@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "icons8-kitchen-room-96.png",
+      "filename" : "fast-food.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "icons8-kitchen-room-97.png",
+      "filename" : "fast-food@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "icons8-kitchen-room-98.png",
+      "filename" : "fast-food@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

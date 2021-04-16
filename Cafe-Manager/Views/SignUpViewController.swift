@@ -9,10 +9,11 @@ import UIKit
 
 class SignUpViewController: UIViewController {
 
+    @IBOutlet weak var NameTextFiled: UITextField!
     @IBOutlet weak var EmailTextField: UITextField!
     @IBOutlet weak var ContactNumberTextFiled: UITextField!
     @IBOutlet weak var PasswordTextFiled: UITextField!
-    @IBOutlet weak var SignupButton: UIButton!
+    //@IBOutlet weak var SignupButton: UIButton!
     @IBOutlet weak var ErrorLable: UILabel!
     
     
@@ -39,4 +40,8 @@ class SignUpViewController: UIViewController {
 
     }
 
+    
+    @IBAction func SignInButtonTapped(_ sender: Any) {
+        dismiss(animated: false, completion: nil)
+    }
 }

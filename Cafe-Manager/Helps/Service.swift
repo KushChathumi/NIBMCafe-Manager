@@ -10,7 +10,8 @@ import Firebase
 
 class Service{
     
-    static func signUpUser(email: String, password:String, contact:String, onSuccess:@escaping()-> Void, onError: @escaping(_ error:Error?)-> Void ){
+    static func signUpUser(email: String, password:String, contact:String, onSuccess:@escaping()-> Void, onError: @escaping(_ error:Error?)-> Void )
+    {
         let auth = Auth.auth()
         auth.createUser(withEmail: email, password: password) { (authresult, error) in
             if error != nil

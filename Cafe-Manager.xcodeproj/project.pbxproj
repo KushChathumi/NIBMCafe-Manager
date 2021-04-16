@@ -20,6 +20,9 @@
 		D3A5D14E2622B63300447E9F /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A5D14D2622B63300447E9F /* Service.swift */; };
 		D3A5D1522622BD7A00447E9F /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A5D1512622BD7A00447E9F /* HomeTabBarController.swift */; };
 		D3A5D1552622BE1300447E9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A5D1542622BE1300447E9F /* Constants.swift */; };
+		D3AB1C1C26295AF2005972EB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB1C1B26295AF2005972EB /* MenuViewController.swift */; };
+		D3AB1C1F26295DF8005972EB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB1C1E26295DF8005972EB /* Menu.swift */; };
+		D3D140EC2629B7C500CC5D5D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D140EB2629B7C500CC5D5D /* CategoryViewController.swift */; };
 		D61667381AEFCE3F1EDC142E /* Pods_Cafe_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CD355161BC5C0E3A3A8A2B /* Pods_Cafe_Manager.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,6 +45,9 @@
 		D3A5D14D2622B63300447E9F /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 		D3A5D1512622BD7A00447E9F /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 		D3A5D1542622BE1300447E9F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D3AB1C1B26295AF2005972EB /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		D3AB1C1E26295DF8005972EB /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		D3D140EB2629B7C500CC5D5D /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,8 @@
 				D3A5D12F2622B30000447E9F /* signInViewController.swift */,
 				D3A5D1322622B34500447E9F /* ForgetPWViewController.swift */,
 				D3A5D1512622BD7A00447E9F /* HomeTabBarController.swift */,
+				D3AB1C1B26295AF2005972EB /* MenuViewController.swift */,
+				D3D140EB2629B7C500CC5D5D /* CategoryViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -124,6 +132,7 @@
 			children = (
 				D3A5D14D2622B63300447E9F /* Service.swift */,
 				D3A5D1542622BE1300447E9F /* Constants.swift */,
+				D3AB1C1E26295DF8005972EB /* Menu.swift */,
 			);
 			path = Helps;
 			sourceTree = "<group>";
@@ -244,9 +253,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D33C4ADD26204020009749ED /* ViewController.swift in Sources */,
+				D3AB1C1C26295AF2005972EB /* MenuViewController.swift in Sources */,
 				D3A5D14E2622B63300447E9F /* Service.swift in Sources */,
 				D33C4AD926204020009749ED /* AppDelegate.swift in Sources */,
+				D3D140EC2629B7C500CC5D5D /* CategoryViewController.swift in Sources */,
 				D3A5D1332622B34500447E9F /* ForgetPWViewController.swift in Sources */,
+				D3AB1C1F26295DF8005972EB /* Menu.swift in Sources */,
 				D3A5D12D2622B2F200447E9F /* SignUpViewController.swift in Sources */,
 				D33C4ADB26204020009749ED /* SceneDelegate.swift in Sources */,
 				D3A5D1522622BD7A00447E9F /* HomeTabBarController.swift in Sources */,
