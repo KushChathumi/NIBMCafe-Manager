@@ -12,5 +12,7 @@ pod 'Firebase/Analytics'
 	pod 'Firebase/Core'
 	pod 'Firebase/Firestore'
 	pod 'Firebase/Storage'
+	pod 'Loaf'
+	pod 'Kingfisher', '~> 4.0'
 
 end

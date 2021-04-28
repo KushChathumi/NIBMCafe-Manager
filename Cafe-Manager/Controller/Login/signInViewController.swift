@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import Loaf
 
 class signInViewController: UIViewController {
     
@@ -16,7 +17,7 @@ class signInViewController: UIViewController {
     @IBOutlet weak var PasswordTextField: UITextField!
     //@IBOutlet weak var LoginButton: UIButton!
     
-    @IBOutlet weak var ErrorLable: UILabel!
+   // @IBOutlet weak var ErrorLable: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,8 +25,8 @@ class signInViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    func setUpElements() {
-        ErrorLable.alpha=0}
+    //func setUpElements() {
+        //ErrorLable.alpha=0}
 
     
     @IBAction func signInTapped(_ sender: Any) {
@@ -35,8 +36,9 @@ class signInViewController: UIViewController {
         
         Auth.auth().signIn(withEmail: email, password: password) { (result, error) in
             if error != nil{
-                self.ErrorLable.text = error?.localizedDescription
-                self.ErrorLable.alpha = 1
+                //self.ErrorLable.text = error?.localizedDescription
+                //self.ErrorLable.alpha = 1
+                Loaf("User Name or Password is invalid...!", state: .error, presentingDirection: .left, dismissingDirection: .vertical, sender: self).show()
             }
             else{
                 let HomeTabBarController = self.storyboard?.instantiateViewController(identifier: Constants.Storyboard.HomeTabViewController) as? HomeTabBarController

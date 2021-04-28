@@ -13,6 +13,10 @@
 		D33C4AE026204020009749ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C4ADE26204020009749ED /* Main.storyboard */; };
 		D33C4AE226204021009749ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33C4AE126204021009749ED /* Assets.xcassets */; };
 		D33C4AE526204021009749ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C4AE326204021009749ED /* LaunchScreen.storyboard */; };
+		D3590C1526327BA5007CC6F5 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3590C1426327BA5007CC6F5 /* FoodViewController.swift */; };
+		D3590C2026327FC9007CC6F5 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3590C1E26327FC9007CC6F5 /* FoodTableViewCell.swift */; };
+		D3590C2126327FC9007CC6F5 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3590C1F26327FC9007CC6F5 /* FoodTableViewCell.xib */; };
+		D3590C25263299A0007CC6F5 /* EntityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3590C24263299A0007CC6F5 /* EntityModel.swift */; };
 		D3A5D1292622B20A00447E9F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D3A5D1282622B20A00447E9F /* GoogleService-Info.plist */; };
 		D3A5D12D2622B2F200447E9F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A5D12C2622B2F200447E9F /* SignUpViewController.swift */; };
 		D3A5D1302622B30000447E9F /* signInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A5D12F2622B30000447E9F /* signInViewController.swift */; };
@@ -38,6 +42,10 @@
 		D33C4AE126204021009749ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33C4AE426204021009749ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D33C4AE626204021009749ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3590C1426327BA5007CC6F5 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
+		D3590C1E26327FC9007CC6F5 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
+		D3590C1F26327FC9007CC6F5 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
+		D3590C24263299A0007CC6F5 /* EntityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityModel.swift; sourceTree = "<group>"; };
 		D3A5D1282622B20A00447E9F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D3A5D12C2622B2F200447E9F /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		D3A5D12F2622B30000447E9F /* signInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signInViewController.swift; sourceTree = "<group>"; };
@@ -100,8 +108,9 @@
 		D33C4AD726204020009749ED /* Cafe-Manager */ = {
 			isa = PBXGroup;
 			children = (
+				D3590C2326329983007CC6F5 /* Model */,
 				D3A5D14C2622B62600447E9F /* Helps */,
-				D3A5D12B2622B2C000447E9F /* Views */,
+				D3A5D12B2622B2C000447E9F /* Controller */,
 				D33C4AD826204020009749ED /* AppDelegate.swift */,
 				D33C4ADA26204020009749ED /* SceneDelegate.swift */,
 				D33C4ADC26204020009749ED /* ViewController.swift */,
@@ -114,17 +123,42 @@
 			path = "Cafe-Manager";
 			sourceTree = "<group>";
 		};
-		D3A5D12B2622B2C000447E9F /* Views */ = {
+		D3590C2326329983007CC6F5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D3590C24263299A0007CC6F5 /* EntityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D3590C2726329FC4007CC6F5 /* Login */ = {
 			isa = PBXGroup;
 			children = (
 				D3A5D12C2622B2F200447E9F /* SignUpViewController.swift */,
-				D3A5D12F2622B30000447E9F /* signInViewController.swift */,
 				D3A5D1322622B34500447E9F /* ForgetPWViewController.swift */,
+				D3A5D12F2622B30000447E9F /* signInViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		D3590C2926329FEC007CC6F5 /* Home */ = {
+			isa = PBXGroup;
+			children = (
 				D3A5D1512622BD7A00447E9F /* HomeTabBarController.swift */,
 				D3AB1C1B26295AF2005972EB /* MenuViewController.swift */,
 				D3D140EB2629B7C500CC5D5D /* CategoryViewController.swift */,
+				D3590C1426327BA5007CC6F5 /* FoodViewController.swift */,
 			);
-			path = Views;
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D3A5D12B2622B2C000447E9F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D3590C2926329FEC007CC6F5 /* Home */,
+				D3590C2726329FC4007CC6F5 /* Login */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		D3A5D14C2622B62600447E9F /* Helps */ = {
@@ -133,6 +167,8 @@
 				D3A5D14D2622B63300447E9F /* Service.swift */,
 				D3A5D1542622BE1300447E9F /* Constants.swift */,
 				D3AB1C1E26295DF8005972EB /* Menu.swift */,
+				D3590C1E26327FC9007CC6F5 /* FoodTableViewCell.swift */,
+				D3590C1F26327FC9007CC6F5 /* FoodTableViewCell.xib */,
 			);
 			path = Helps;
 			sourceTree = "<group>";
@@ -198,6 +234,7 @@
 			files = (
 				D33C4AE526204021009749ED /* LaunchScreen.storyboard in Resources */,
 				D3A5D1292622B20A00447E9F /* GoogleService-Info.plist in Resources */,
+				D3590C2126327FC9007CC6F5 /* FoodTableViewCell.xib in Resources */,
 				D33C4AE226204021009749ED /* Assets.xcassets in Resources */,
 				D33C4AE026204020009749ED /* Main.storyboard in Resources */,
 			);
@@ -252,15 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3590C25263299A0007CC6F5 /* EntityModel.swift in Sources */,
 				D33C4ADD26204020009749ED /* ViewController.swift in Sources */,
 				D3AB1C1C26295AF2005972EB /* MenuViewController.swift in Sources */,
 				D3A5D14E2622B63300447E9F /* Service.swift in Sources */,
+				D3590C2026327FC9007CC6F5 /* FoodTableViewCell.swift in Sources */,
 				D33C4AD926204020009749ED /* AppDelegate.swift in Sources */,
 				D3D140EC2629B7C500CC5D5D /* CategoryViewController.swift in Sources */,
 				D3A5D1332622B34500447E9F /* ForgetPWViewController.swift in Sources */,
 				D3AB1C1F26295DF8005972EB /* Menu.swift in Sources */,
 				D3A5D12D2622B2F200447E9F /* SignUpViewController.swift in Sources */,
 				D33C4ADB26204020009749ED /* SceneDelegate.swift in Sources */,
+				D3590C1526327BA5007CC6F5 /* FoodViewController.swift in Sources */,
 				D3A5D1522622BD7A00447E9F /* HomeTabBarController.swift in Sources */,
 				D3A5D1302622B30000447E9F /* signInViewController.swift in Sources */,
 				D3A5D1552622BE1300447E9F /* Constants.swift in Sources */,
