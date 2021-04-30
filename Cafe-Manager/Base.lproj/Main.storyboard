@@ -826,13 +826,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NUU-iM-c9Q">
-                                <rect key="frame" x="0.0" y="0.0" width="376" height="44"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                 <items>
                                     <navigationItem title="Cafe - NIBM" id="fLl-zZ-ajJ"/>
                                 </items>
                             </navigationBar>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qkz-wl-79y">
-                                <rect key="frame" x="0.0" y="44" width="376" height="30"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="30"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FzU-uK-P1J">
                                         <rect key="frame" x="0.0" y="0.0" width="118.5" height="30"/>
@@ -842,14 +842,14 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6S-ck-NUR">
-                                        <rect key="frame" x="128.5" y="0.0" width="119" height="30"/>
+                                        <rect key="frame" x="128.5" y="0.0" width="118" height="30"/>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <state key="normal" title="Category">
                                             <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HO2-gD-N01">
-                                        <rect key="frame" x="257.5" y="0.0" width="118.5" height="30"/>
+                                        <rect key="frame" x="256.5" y="0.0" width="118.5" height="30"/>
                                         <state key="normal" title="Menu"/>
                                         <connections>
                                             <segue destination="GiM-2R-RFP" kind="presentation" animates="NO" modalPresentationStyle="currentContext" id="kVx-tB-RPM"/>
@@ -860,18 +860,18 @@
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Name" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="1OL-r6-ilR">
-                                <rect key="frame" x="20" y="187" width="336" height="34"/>
+                                <rect key="frame" x="20" y="187" width="335" height="34"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add New Category" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDp-6D-cj7">
-                                <rect key="frame" x="42.5" y="109" width="291" height="38"/>
+                                <rect key="frame" x="42.5" y="109" width="290" height="38"/>
                                 <fontDescription key="fontDescription" name="Verdana" family="Verdana" pointSize="31"/>
                                 <color key="textColor" systemColor="linkColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hhN-py-1Vk">
-                                <rect key="frame" x="138" y="251" width="100" height="33"/>
+                                <rect key="frame" x="138" y="251" width="99" height="33"/>
                                 <color key="backgroundColor" name="AccentColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="100" id="grk-V3-KF1"/>
@@ -888,7 +888,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="emW-Mk-dX5">
-                                <rect key="frame" x="20" y="304" width="336" height="343"/>
+                                <rect key="frame" x="20" y="304" width="335" height="343"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="3JM-yi-usw" id="CsC-ZX-cIf"/>

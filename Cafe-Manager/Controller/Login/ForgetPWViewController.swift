@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseAuth
+import Loaf
 
 class ForgetPWViewController: UIViewController {
 
@@ -38,8 +39,10 @@ class ForgetPWViewController: UIViewController {
             else
             {
             let  alert =  Service.createAlertController(title: "Done", message: "A Password reset Email has been sent!")
-            self.ErrorLabel.text = error?.localizedDescription
-            self.ErrorLabel.alpha = 1
+                
+                Loaf(" Password reset Email has been sent!", state: .success, presentingDirection: .left, dismissingDirection: .vertical, sender: self).show()
+            //self.ErrorLabel.text = error?.localizedDescription
+            //self.ErrorLabel.alpha = 1
             }
         }
     }
