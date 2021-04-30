@@ -6,24 +6,35 @@
 //
 
 import UIKit
+import Firebase
 
 class CategoryViewController: UIViewController {
 
+    @IBOutlet weak var categoryTable: UITableView!
+    
+    var category: [Category] = []
+    var ref: DatabaseReference!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        categoryTable.register(UINib(nibName: "CategoryViewController", bundle: nil), forCellReuseIdentifier: "CategoryCellReuseIdentifier")
+        ref = Database.database().reference()
+    }
+}
+    
+extension CategoryViewController: UITableViewDelegate, UITableViewDataSource{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return category.count
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+      let cell = categoryTable.dequeueReusableCell(withIdentifier:"CategoryCellReuseIdentifier", for: indexPath) as! CategoryTableViewCell
+        cell.setUpUI(catgory: category[indexPath.row])
+        return cell
     }
-    */
-
 }
+
+
+
+

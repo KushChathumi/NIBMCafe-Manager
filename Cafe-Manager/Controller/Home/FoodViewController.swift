@@ -16,10 +16,7 @@ class FoodViewController: UIViewController {
     var ref: DatabaseReference!
     
     var foodItem: [FoodItem] = []
-    
-//        var foodItem: [FoodItem] = [FoodItem(_id: "001", foodName: "cheese Burgur", foodDescription: "Cheese burgur", foodPrice: 650, foodDiscount: 10, foodImage: "img_55e65939b75ea"),
-//            FoodItem(_id: "002", foodName: "Burgur", foodDescription: "Burgur", foodPrice: 600, foodDiscount: 0, foodImage: "img_55e65939b75ea")
-//        ]
+    var selectedFoodItem: FoodItem?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +24,13 @@ class FoodViewController: UIViewController {
         TableView.register(UINib(nibName: "FoodTableViewCell", bundle: nil), forCellReuseIdentifier: "FoodCellReuseIdentifier")
         ref = Database.database().reference()
         getFoodItemData()
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "HomeToViewFoodItem"{
+            let destinationVC =  segue.destination as! FoodItemViewController
+            destinationVC.foodItem = selectedFoodItem
+        }
     }
 }
 
@@ -52,11 +56,7 @@ extension FoodViewController{
                                 category: foodInfo["category"]as! String)
                             
                             self.foodItem.append(singleFoodItem)
-                            
-                            //print("=========Food Shop=========")
-                            //print("Food Name : \(foodInfo["foodName"] as! String)")
-                            //print("Food Price : \(foodInfo["Price"] as! Double)")
-                            //print(foodInfo)
+                            print(snapshot.value)
                         }
                     }
                     self.TableView.reloadData()
@@ -75,6 +75,11 @@ extension FoodViewController :UITableViewDelegate, UITableViewDataSource{
         let cell = TableView.dequeueReusableCell(withIdentifier:"FoodCellReuseIdentifier", for: indexPath) as! FoodTableViewCell
         cell.setupView(foodItem: foodItem[indexPath.row])
         return cell
+    }
+    // call to the FoodItemViewController
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        selectedFoodItem = foodItem[indexPath.row]
+        self.performSegue(withIdentifier: "HomeToViewFoodItem", sender: nil)
     }
 }
     

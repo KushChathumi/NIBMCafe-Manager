@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D304591D263B9F8E00EE09D5 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304591C263B9F8E00EE09D5 /* OrderViewController.swift */; };
+		D3045921263BA04800EE09D5 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304591F263BA04800EE09D5 /* OrderTableViewCell.swift */; };
+		D3045922263BA04800EE09D5 /* OrderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3045920263BA04800EE09D5 /* OrderTableViewCell.xib */; };
+		D3045925263BB11F00EE09D5 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3045924263BB11F00EE09D5 /* SessionManager.swift */; };
+		D3045932263BBD8C00EE09D5 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3045930263BBD8C00EE09D5 /* CategoryTableViewCell.swift */; };
+		D3045933263BBD8C00EE09D5 /* CategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3045931263BBD8C00EE09D5 /* CategoryTableViewCell.xib */; };
+		D3045937263BFCF800EE09D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3045936263BFCF800EE09D5 /* Assets.xcassets */; };
+		D304593A263C0E2000EE09D5 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3045939263C0E2000EE09D5 /* AccountViewController.swift */; };
+		D304593D263C26C500EE09D5 /* LaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304593C263C26C500EE09D5 /* LaunchViewController.swift */; };
+		D3045940263C4D8900EE09D5 /* FoodItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304593F263C4D8900EE09D5 /* FoodItemViewController.swift */; };
 		D33C4AD926204020009749ED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C4AD826204020009749ED /* AppDelegate.swift */; };
 		D33C4ADB26204020009749ED /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C4ADA26204020009749ED /* SceneDelegate.swift */; };
 		D33C4ADD26204020009749ED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C4ADC26204020009749ED /* ViewController.swift */; };
 		D33C4AE026204020009749ED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C4ADE26204020009749ED /* Main.storyboard */; };
-		D33C4AE226204021009749ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33C4AE126204021009749ED /* Assets.xcassets */; };
 		D33C4AE526204021009749ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C4AE326204021009749ED /* LaunchScreen.storyboard */; };
+		D3569CC7263A55E40091FCEA /* InputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3569CC6263A55E40091FCEA /* InputValidator.swift */; };
 		D3590C1526327BA5007CC6F5 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3590C1426327BA5007CC6F5 /* FoodViewController.swift */; };
 		D3590C2026327FC9007CC6F5 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3590C1E26327FC9007CC6F5 /* FoodTableViewCell.swift */; };
 		D3590C2126327FC9007CC6F5 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D3590C1F26327FC9007CC6F5 /* FoodTableViewCell.xib */; };
@@ -25,7 +35,6 @@
 		D3A5D1522622BD7A00447E9F /* HomeTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A5D1512622BD7A00447E9F /* HomeTabBarController.swift */; };
 		D3A5D1552622BE1300447E9F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3A5D1542622BE1300447E9F /* Constants.swift */; };
 		D3AB1C1C26295AF2005972EB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB1C1B26295AF2005972EB /* MenuViewController.swift */; };
-		D3AB1C1F26295DF8005972EB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3AB1C1E26295DF8005972EB /* Menu.swift */; };
 		D3D140EC2629B7C500CC5D5D /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D140EB2629B7C500CC5D5D /* CategoryViewController.swift */; };
 		D61667381AEFCE3F1EDC142E /* Pods_Cafe_Manager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46CD355161BC5C0E3A3A8A2B /* Pods_Cafe_Manager.framework */; };
 /* End PBXBuildFile section */
@@ -34,14 +43,24 @@
 		0536AD45E4FC6A26A81E9EA9 /* Pods-Cafe-Manager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-Manager.release.xcconfig"; path = "Target Support Files/Pods-Cafe-Manager/Pods-Cafe-Manager.release.xcconfig"; sourceTree = "<group>"; };
 		1E5E7AA5D1596F0B8C87E54E /* Pods-Cafe-Manager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cafe-Manager.debug.xcconfig"; path = "Target Support Files/Pods-Cafe-Manager/Pods-Cafe-Manager.debug.xcconfig"; sourceTree = "<group>"; };
 		46CD355161BC5C0E3A3A8A2B /* Pods_Cafe_Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cafe_Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D304591C263B9F8E00EE09D5 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		D304591F263BA04800EE09D5 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		D3045920263BA04800EE09D5 /* OrderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OrderTableViewCell.xib; sourceTree = "<group>"; };
+		D3045924263BB11F00EE09D5 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		D3045930263BBD8C00EE09D5 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		D3045931263BBD8C00EE09D5 /* CategoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoryTableViewCell.xib; sourceTree = "<group>"; };
+		D3045936263BFCF800EE09D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3045939263C0E2000EE09D5 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		D304593C263C26C500EE09D5 /* LaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchViewController.swift; sourceTree = "<group>"; };
+		D304593F263C4D8900EE09D5 /* FoodItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodItemViewController.swift; sourceTree = "<group>"; };
 		D33C4AD526204020009749ED /* Cafe-Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cafe-Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33C4AD826204020009749ED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D33C4ADA26204020009749ED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D33C4ADC26204020009749ED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D33C4ADF26204020009749ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D33C4AE126204021009749ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D33C4AE426204021009749ED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D33C4AE626204021009749ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3569CC6263A55E40091FCEA /* InputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputValidator.swift; sourceTree = "<group>"; };
 		D3590C1426327BA5007CC6F5 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodViewController.swift; sourceTree = "<group>"; };
 		D3590C1E26327FC9007CC6F5 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTableViewCell.swift; sourceTree = "<group>"; };
 		D3590C1F26327FC9007CC6F5 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTableViewCell.xib; sourceTree = "<group>"; };
@@ -54,7 +73,6 @@
 		D3A5D1512622BD7A00447E9F /* HomeTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarController.swift; sourceTree = "<group>"; };
 		D3A5D1542622BE1300447E9F /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		D3AB1C1B26295AF2005972EB /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		D3AB1C1E26295DF8005972EB /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		D3D140EB2629B7C500CC5D5D /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,6 +105,19 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D3045927263BBCB100EE09D5 /* Table cell */ = {
+			isa = PBXGroup;
+			children = (
+				D3590C1E26327FC9007CC6F5 /* FoodTableViewCell.swift */,
+				D3590C1F26327FC9007CC6F5 /* FoodTableViewCell.xib */,
+				D304591F263BA04800EE09D5 /* OrderTableViewCell.swift */,
+				D3045920263BA04800EE09D5 /* OrderTableViewCell.xib */,
+				D3045930263BBD8C00EE09D5 /* CategoryTableViewCell.swift */,
+				D3045931263BBD8C00EE09D5 /* CategoryTableViewCell.xib */,
+			);
+			path = "Table cell";
+			sourceTree = "<group>";
+		};
 		D33C4ACC26204020009749ED = {
 			isa = PBXGroup;
 			children = (
@@ -113,10 +144,10 @@
 				D3A5D12B2622B2C000447E9F /* Controller */,
 				D33C4AD826204020009749ED /* AppDelegate.swift */,
 				D33C4ADA26204020009749ED /* SceneDelegate.swift */,
-				D33C4ADC26204020009749ED /* ViewController.swift */,
 				D33C4ADE26204020009749ED /* Main.storyboard */,
-				D33C4AE126204021009749ED /* Assets.xcassets */,
+				D33C4ADC26204020009749ED /* ViewController.swift */,
 				D33C4AE326204021009749ED /* LaunchScreen.storyboard */,
+				D3045936263BFCF800EE09D5 /* Assets.xcassets */,
 				D3A5D1282622B20A00447E9F /* GoogleService-Info.plist */,
 				D33C4AE626204021009749ED /* Info.plist */,
 			);
@@ -137,6 +168,7 @@
 				D3A5D12C2622B2F200447E9F /* SignUpViewController.swift */,
 				D3A5D1322622B34500447E9F /* ForgetPWViewController.swift */,
 				D3A5D12F2622B30000447E9F /* signInViewController.swift */,
+				D304593C263C26C500EE09D5 /* LaunchViewController.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -148,6 +180,9 @@
 				D3AB1C1B26295AF2005972EB /* MenuViewController.swift */,
 				D3D140EB2629B7C500CC5D5D /* CategoryViewController.swift */,
 				D3590C1426327BA5007CC6F5 /* FoodViewController.swift */,
+				D304591C263B9F8E00EE09D5 /* OrderViewController.swift */,
+				D3045939263C0E2000EE09D5 /* AccountViewController.swift */,
+				D304593F263C4D8900EE09D5 /* FoodItemViewController.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -164,11 +199,11 @@
 		D3A5D14C2622B62600447E9F /* Helps */ = {
 			isa = PBXGroup;
 			children = (
+				D3045927263BBCB100EE09D5 /* Table cell */,
 				D3A5D14D2622B63300447E9F /* Service.swift */,
 				D3A5D1542622BE1300447E9F /* Constants.swift */,
-				D3AB1C1E26295DF8005972EB /* Menu.swift */,
-				D3590C1E26327FC9007CC6F5 /* FoodTableViewCell.swift */,
-				D3590C1F26327FC9007CC6F5 /* FoodTableViewCell.xib */,
+				D3569CC6263A55E40091FCEA /* InputValidator.swift */,
+				D3045924263BB11F00EE09D5 /* SessionManager.swift */,
 			);
 			path = Helps;
 			sourceTree = "<group>";
@@ -232,10 +267,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3045922263BA04800EE09D5 /* OrderTableViewCell.xib in Resources */,
+				D3045933263BBD8C00EE09D5 /* CategoryTableViewCell.xib in Resources */,
 				D33C4AE526204021009749ED /* LaunchScreen.storyboard in Resources */,
 				D3A5D1292622B20A00447E9F /* GoogleService-Info.plist in Resources */,
+				D3045937263BFCF800EE09D5 /* Assets.xcassets in Resources */,
 				D3590C2126327FC9007CC6F5 /* FoodTableViewCell.xib in Resources */,
-				D33C4AE226204021009749ED /* Assets.xcassets in Resources */,
 				D33C4AE026204020009749ED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,17 +328,24 @@
 			files = (
 				D3590C25263299A0007CC6F5 /* EntityModel.swift in Sources */,
 				D33C4ADD26204020009749ED /* ViewController.swift in Sources */,
+				D304593A263C0E2000EE09D5 /* AccountViewController.swift in Sources */,
+				D3045940263C4D8900EE09D5 /* FoodItemViewController.swift in Sources */,
 				D3AB1C1C26295AF2005972EB /* MenuViewController.swift in Sources */,
+				D3045925263BB11F00EE09D5 /* SessionManager.swift in Sources */,
 				D3A5D14E2622B63300447E9F /* Service.swift in Sources */,
 				D3590C2026327FC9007CC6F5 /* FoodTableViewCell.swift in Sources */,
+				D3569CC7263A55E40091FCEA /* InputValidator.swift in Sources */,
+				D3045921263BA04800EE09D5 /* OrderTableViewCell.swift in Sources */,
 				D33C4AD926204020009749ED /* AppDelegate.swift in Sources */,
 				D3D140EC2629B7C500CC5D5D /* CategoryViewController.swift in Sources */,
+				D304591D263B9F8E00EE09D5 /* OrderViewController.swift in Sources */,
 				D3A5D1332622B34500447E9F /* ForgetPWViewController.swift in Sources */,
-				D3AB1C1F26295DF8005972EB /* Menu.swift in Sources */,
 				D3A5D12D2622B2F200447E9F /* SignUpViewController.swift in Sources */,
 				D33C4ADB26204020009749ED /* SceneDelegate.swift in Sources */,
+				D3045932263BBD8C00EE09D5 /* CategoryTableViewCell.swift in Sources */,
 				D3590C1526327BA5007CC6F5 /* FoodViewController.swift in Sources */,
 				D3A5D1522622BD7A00447E9F /* HomeTabBarController.swift in Sources */,
+				D304593D263C26C500EE09D5 /* LaunchViewController.swift in Sources */,
 				D3A5D1302622B30000447E9F /* signInViewController.swift in Sources */,
 				D3A5D1552622BE1300447E9F /* Constants.swift in Sources */,
 			);
