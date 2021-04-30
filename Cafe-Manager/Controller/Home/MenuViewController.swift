@@ -8,8 +8,6 @@
 import UIKit
 
 class MenuViewController: UIViewController {
-
-    @IBOutlet weak var MsgLable: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,11 +19,11 @@ class MenuViewController: UIViewController {
     @IBAction func Switch(_ sender: UISwitch) {
         if (sender.isOn == true)
         {
-            MsgLable.text = "Print"
+            print("Set as Item")
         }
         else
         {
-            MsgLable.text = "Don't Print"
+            print("Doesn't set as Item")
         }
     }
 
